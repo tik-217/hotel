@@ -4,12 +4,14 @@ import instagram from "assets/ico/instagram.svg";
 import link from "assets/ico/link.svg";
 import menu from "assets/ico/menu.svg";
 import close from "assets/ico/close.svg";
-import { useRef } from "react";
+import {  useRef } from "react";
 
 import "./FirstDisplay.scss";
 
 export default function FirstDisplay() {
   const menuRef = useRef(null);
+
+  const menuElRef = useRef(null);
 
   function closeMenu() {
     menuRef.current.style.opacity = 0;
@@ -23,6 +25,10 @@ export default function FirstDisplay() {
     menuRef.current.style.height = "100%";
   }
 
+  function scroll() {
+    menuElRef.current.scrollIntoView({ block: "center", behavior: "smooth" });
+  }
+
   return (
     <>
       <div className="first-display__wrapper">
@@ -34,7 +40,7 @@ export default function FirstDisplay() {
             </div>
             <nav>
               <ul>
-                <li>гостиница</li>
+                <li onClick={() => scroll()}>гостиница</li>
                 <li>номера</li>
                 <li>контакты</li>
               </ul>

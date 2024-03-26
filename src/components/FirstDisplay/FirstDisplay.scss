@@ -55,7 +55,7 @@ header {
   position: absolute;
   background: rgba(29, 58, 47, 0.8);
   width: 100%;
-  height: 230px;
+  height: 135px;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -69,6 +69,7 @@ header {
 .first-display__logo img {
   position: relative;
   z-index: 2;
+  top: -25px;
 }
 
 header nav ul {
@@ -274,7 +275,7 @@ menu {
     position: absolute;
     cursor: pointer;
     top: 80px;
-    right: 120px;
+    right: 65px;
   }
 
   .first-display > .first-display__text .first-display__text_link {

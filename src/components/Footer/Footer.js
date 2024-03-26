@@ -12,8 +12,12 @@ export default function Footer() {
         <div className="footer__text">
           <ul>
             <li>Контакты</li>
-            <li>89883204433 - Александр</li>
-            <li>89184204237 - Давид</li>
+            <li>
+              <a href="tel:89883204433">89883204433</a> - Александр
+            </li>
+            <li>
+              <a href="tel:89184204237">89184204237</a> - Давид
+            </li>
           </ul>
           <ul>
             <li>Адрес</li>
@@ -35,11 +39,7 @@ export default function Footer() {
             <img src={map} alt="map" />
           </a>
         </div>
-        {year !== "2023" ? (
-          <p className="copyright">© Т. Д. Габулян, {year}</p>
-        ) : (
-          <p className="copyright">© Т. Д. Габулян, 2023-{year}</p>
-        )}
+        <p className="copyright">© Т. Д. Габулян, {year}</p>
       </div>
     </div>
   );

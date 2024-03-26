@@ -21,7 +21,11 @@ export default function Rooms() {
               Wi-Fi, холодильником. Номер рассчитан на двоих и домашнего
               животного.
             </p>
-            <a href="tel:89883204433">
+            <a
+              href="https://vk.com/kalmar_vityazevo?w=product-219291974_9352770%2Fquery"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button>узнать цену</button>
             </a>
           </div>
@@ -38,7 +42,11 @@ export default function Rooms() {
               Wi-Fi, холодильником. Номер рассчитан на троих и домашнего
               животного.
             </p>
-            <a href="tel:89883204433">
+            <a
+              href="https://vk.com/kalmar_vityazevo?w=product-219291974_9352831%2Fquery"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button>узнать цену</button>
             </a>
           </div>
@@ -55,7 +63,11 @@ export default function Rooms() {
               Wi-Fi, холодильником. Номер рассчитан на четверых и домашнего
               животного.
             </p>
-            <a href="tel:89883204433">
+            <a
+              href="https://vk.com/kalmar_vityazevo?w=product-219291974_9352837%2Fquery"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button>узнать цену</button>
             </a>
           </div>
