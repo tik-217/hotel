@@ -1,0 +1,22 @@
+@import "./vars.scss";
+
+:root {
+  --padding-around: 60px 80px;
+  --padding-around-middle: 40px 50px;
+  --padding-around-small: 40px 20px;
+  --title-size-middle: 22px;
+  --title-size: 30px;
+
+  @media #{$media-desktop} {
+    --padding-around: var(--padding-around-middle);
+    --title-size: var(--title-size-middle);
+  }
+
+  @media #{$media-middle} {
+    --padding-around: var(--padding-around-middle);
+  }
+
+  @media #{$media-small} {
+    --padding-around: var(--padding-around-small);
+  }
+}
