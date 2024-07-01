@@ -1,7 +1,7 @@
-import room1 from "assets/img/T-Zq04Jl5yU.jpg";
-import room2 from "assets/img/P5L1Xx-MmjQ.jpg";
+import room1 from "assets/img/IMG_2902.jpeg";
+import room2 from "assets/img/IMG_2897.jpeg";
 import room3 from "assets/img/6CH3JldJrIg.jpg";
-import room4 from "assets/img/FGBwec-woXs.jpg";
+import room4 from "assets/img/IMG_2933 3.jpeg";
 
 import "./ThirdDisplay.scss";
 

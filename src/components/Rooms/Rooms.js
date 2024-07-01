@@ -1,6 +1,6 @@
-import double from "assets/img/1GHakzbEn5Q.jpg";
-import triple from "assets/img/EbV63gjEp6s.jpg";
-import quadruple from "assets/img/T-Zq04Jl5yU.jpg";
+import double from "assets/img/IMG_2902.jpeg";
+import triple from "assets/img/IMG_2906.jpeg";
+import quadruple from "assets/img/IMG_2889.jpeg";
 
 import "./Rooms.scss";
 
@@ -21,11 +21,7 @@ export default function Rooms() {
               Wi-Fi, холодильником. Номер рассчитан на двоих и домашнего
               животного.
             </p>
-            <a
-              href="https://vk.com/kalmar_vityazevo?w=product-219291974_9352770%2Fquery"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="tel:89883204433" rel="noreferrer">
               <button>узнать цену</button>
             </a>
           </div>
@@ -42,11 +38,7 @@ export default function Rooms() {
               Wi-Fi, холодильником. Номер рассчитан на троих и домашнего
               животного.
             </p>
-            <a
-              href="https://vk.com/kalmar_vityazevo?w=product-219291974_9352831%2Fquery"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="tel:89883204433" target="_blank" rel="noreferrer">
               <button>узнать цену</button>
             </a>
           </div>
@@ -63,11 +55,7 @@ export default function Rooms() {
               Wi-Fi, холодильником. Номер рассчитан на четверых и домашнего
               животного.
             </p>
-            <a
-              href="https://vk.com/kalmar_vityazevo?w=product-219291974_9352837%2Fquery"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="tel:89883204433" target="_blank" rel="noreferrer">
               <button>узнать цену</button>
             </a>
           </div>
